@@ -1,0 +1,16 @@
+{
+ "framework": "13_FISMA",
+ "title": "FISMA / FIPS 199-200",
+ "project": "TREE",
+ "basis": [
+  {
+   "check": "10_nist_sp_800_53",
+   "status": "PASS",
+   "observed": "{\"authority\": \"NIST\", \"control_ids\": [\"AC-3(2)\", \"AC-6(7)\", "
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "086c6964072995d902dd60382d09f388fc035101c17df59335f9737900e5a02e",
+ "register_sha3": "dcd34f476fdf944a3649db93032ec28738ed5064e253c1dcae505fb60bbd403a"
+}
